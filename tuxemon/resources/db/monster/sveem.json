@@ -1,5 +1,5 @@
 {
-    "id":   17,
+    "id":   1,
 
     "attack_base":            55,
     "defense_base":           7,
@@ -21,21 +21,16 @@
     "moveset": [
         {
             "level_learned": 1,
-            "technique_id": 1,
-            "technique": "Pound"
-        },
-        {
-            "level_learned": 2,
-            "technique_id": 3,
-            "technique": "Water Shot"
+            "technique_id": 10,
+            "technique": "Classify"
         }
     ],
-    "name": "Tux",
+    "name": "Sveem",
     "sprites": {
-        "battle1": "resources/gfx/sprites/battle/tux-front.png",
-        "battle2": "resources/gfx/sprites/battle/tux-back.png",
-        "menu1": "resources/gfx/sprites/battle/tux-menu01.png",
-        "menu2": "resources/gfx/sprites/battle/tux-menu02.png"
+        "battle1": "gfx/sprites/battle/sveem.png",
+        "battle2": "gfx/sprites/battle/sveem-back.png",
+        "menu1": "gfx/sprites/battle/fruitera-menu01.png",
+        "menu2": "gfx/sprites/battle/fruitera-menu02.png"
     },
     "types": [
         "water"
