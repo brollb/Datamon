@@ -27,7 +27,7 @@
     ],
     "name": "Sigmoidian",
     "sprites": {
-        "battle1": "gfx/sprites/battle/fruitera-front.png",
+        "battle1": "gfx/sprites/battle/Sigmoidian.png",
         "battle2": "gfx/sprites/battle/fruitera-back.png",
         "menu1": "gfx/sprites/battle/fruitera-menu01.png",
         "menu2": "gfx/sprites/battle/fruitera-menu02.png"
