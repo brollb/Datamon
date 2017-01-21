@@ -21,7 +21,7 @@
     "moveset": [
         {
             "level_learned": 1,
-            "technique_id": 1,
+            "technique_id": 10,
             "technique": "Classify"
         }
     ],
