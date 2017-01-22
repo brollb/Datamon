@@ -2,7 +2,7 @@
     "slug": "default_encounter",
     "monsters":[
         {
-            "encounter_rate":100,
+            "encounter_rate":50,
             "level_range":[
                 1,
                 6
@@ -26,7 +26,7 @@
             "monster":"txmn_decitree"
         },
         {
-            "encounter_rate":50,
+            "encounter_rate":150,
             "level_range":[
                 1,
                 6
