@@ -53,12 +53,26 @@
     <property name="cond2" value="is player_facing down"/>
    </properties>
   </object>
-   <object id='94' name='create Ng' type='event' x='8' y='7' width='16' height='16'>
+  <object id='94' name='create Ng' type='event' x='8' y='7' width='16' height='16'>
    <properties>
     <property name="act1" value="create_npc Ng,8,7,boss,stay"/>
     <property name="cond1" value="not npc_exists Ng"/>
    </properties>
- </object>
+  </object> 
+  <object id="400" name="Talk to professor" type="event" x="8" y="8" width="16" height="16">
+   <properties>
+       <property name="act1" value="dialog_chain Professor Ng: Hello ${{name}}! You are getting old enough to have your own datamon. As you already know datamon are cognitive semi-sentient machines which"/>
+
+       <property name="act2" value="dialog_chain have an ability to learn at an accelerated rate. They strive to classify predict and understand our world."/>
+       <property name="act3" value="dialog_chain They are also rather competitive and love to compete with one another to see who is intellectually superior."/>
+       <property name="act4" value="dialog_chain ..."/>
+       <property name="act5" value="dialog_chain ... Also I work at Google"/>
+       <property name="act6" value="dialog_chain ${{end}}"/>
+    <!--<property name="cond1" value="is player_at 8,9"/>-->
+    <!--<property name="cond2" value="is player_facing up"/>-->
+    <property name="cond3" value="is button_pressed K_RETURN"/>
+   </properties>
+  </object>
   <object id="69" name="Choose Creature 1" x="192" y="96" width="16" height="16"/>
   <object id="74" name="Choose Creature 2" x="208" y="96" width="16" height="16"/>
   <object id="75" name="Choose Creature 3" x="224" y="96" width="16" height="16"/>
