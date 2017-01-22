@@ -30,7 +30,7 @@
     "moveset": [
         {
             "level_learned": 2,
-            "technique": "technique_bite"
+            "technique": "technique_classify"
         },
         {
             "level_learned": 2,
@@ -38,13 +38,14 @@
         }
     ],
     "sprites": {
-        "battle1": "gfx/sprites/battle/fruitera-front.png",
-        "battle2": "gfx/sprites/battle/fruitera-back.png",
-        "menu1": "gfx/sprites/battle/fruitera-menu01.png",
-        "menu2": "gfx/sprites/battle/fruitera-menu02.png"
+        "battle1": "gfx/sprites/battle/sigmoidian-front.png",
+        "battle2": "gfx/sprites/battle/sigmoidian-back.png",
+        "menu1": "gfx/sprites/battle/sigmoidian-menu01.png",
+        "menu2": "gfx/sprites/battle/sigmoidian-menu01.png"
     },
     "types": [
         "wood"
     ],
+    "classifier": "logistic",
     "weight": 25
 }
